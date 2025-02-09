@@ -1,2 +1,2 @@
-# IfGame---EA
-Early acces repository for the If Game
+# The-IF-Game
+Best text based game ever!

@@ -1,0 +1,29 @@
+{
+    "name": "TEST",
+    "hp": 10,
+    "maxHp": 10,
+    "shield": 5,
+    "maxShield": 5,
+    "mana": 5,
+    "maxMana": 5,
+    "damage": 2,
+    "spellDamage": 1,
+    "strength": 1,
+    "intelligence": 1,
+    "stealth": 1,
+    "spellBook": null,
+    "inventory": {
+        "items": [],
+        "mainHand": null,
+        "offHand": null,
+        "maxSpace": 10,
+        "currentSpace": 0
+    },
+    "level": 1,
+    "xp": 0,
+    "xpForLvl": 100,
+    "storyPart": "beg02",
+    "position": 2,
+    "inFight": false,
+    "maxPlayerLevel": 10
+}
