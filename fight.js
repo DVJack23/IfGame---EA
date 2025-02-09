@@ -27,6 +27,7 @@ function fight(hero, mob) {
         while (choice !== 1 && choice !== 2 && choice !== 3) {
             choice = parseInt(prompt("Zadali jste špatnou hodnotu. Zkuste to znovu: "));
         }
+        console.log(`***************************** AKCE ******************************`);
         if (choice===1) {
             console.log("Zvolili jste možnost 1.")
             hero.attack(mob);
@@ -44,9 +45,9 @@ function fight(hero, mob) {
         } else {
             mob.attack(hero)
         }
-
         // END OF ROUND ACTIONS
         console.log(`Konec kola č. ${counter}`);
+        console.log(`***************************** AKCE ******************************`);
         // NEXT ROUND (if both alive)
         counter++;
         hero.cooldown++;
@@ -62,10 +63,12 @@ function fight(hero, mob) {
     // END OF FIGHT (if one is not alive)
     if (hero.isAlive()) {
         console.log(`Porazili jste ${mob.name}!`);
-        hero.gainShield(hero.maxShield);
+        hero.shield = hero.maxShield;
         hero.inFight = false;
+        console.log();
     } else {
         console.log(`${mob.name} Vás porazil!`);
+        console.log();
     }
 }
 

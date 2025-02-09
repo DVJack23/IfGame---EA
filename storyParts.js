@@ -1205,7 +1205,8 @@ Rychle pobereš co můžeš a vydáš se chodbou zpátky.`,
 IN PROGRESS:
 KOUZLA
 DESIGN
-ACT 3 & 4`,
+ACT 3 & 4
+BALANC OBTÍŽNOSTI`,
         null,
         null,
         null,
