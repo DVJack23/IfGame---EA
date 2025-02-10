@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // IMPORT
 const storyParts = require('./storyParts.js');
 const player = require('./player.js');
